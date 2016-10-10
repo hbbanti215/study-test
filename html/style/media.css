@@ -1,0 +1,84 @@
+@media screen and (min-width:240px) and (max-width:1279px) {
+body { -webkit-text-size-adjust: none; }
+input, textarea, button, select { appearance: none; -moz-appearance: none; -webkit-appearance: none; }
+input[type="radio"] { appearance: radio; -moz-appearance: radio; -webkit-appearance: radio; }
+input[type="checkbox"] { appearance: checkbox; -moz-appearance: checkbox; -webkit-appearance: checkbox; }
+}
+
+/*@media only screen and (min-width:1200px) and (max-width:1367px) {
+
+@media only screen and (min-width:980px) and (max-width:1023px) {}
+@media only screen and (min-width:768px) and (max-width:979px) {}
+@media only screen and (min-width:480px) and (max-width:767px) {}
+*/
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+.cate-second { width: 225px; display: block; text-align: center; float: left; padding: 6% 1% 9% 1%; }
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+.nav > li > a { padding: 10px 5px; }
+.home-banner { display: block; width:100%; padding-top:0px; height: 450px; }
+.home-banner img { margin: 0; width: 100%;height:450px;}
+.banner-desc { width:70%;height:auto;padding: 50px 20px 20px 20px; top:150px;max-width:70%;}
+.service-box { width: 33%;}
+.cate-first { width: 100%; float: none; margin: 20px auto; }
+.cate-first .cate-box { width: 50%; float: left; border-bottom: none; }
+.cate-first .cate-box:last-child { border-right: none; }
+.cate-second { width: 100%; float: none; padding: 10% 5%; }
+.cate-last { width: 100%; float: none; margin: 0 auto; }
+.cate-last .cate-box { width: 24%; border-bottom: none; }
+.cate-last .cate-box:first-child { border-left: none; }
+.how-it-work { height: 250px; }
+.header-video--media { height: 230px; }
+.video-trigger h4 { font-size: 20px; }
+.video-trigger span img { width: 50px; height: 50px; background-size: 50px 50px; }
+}
+ @media only screen and (min-width:300px) and (max-width:767px) {
+.cate-second { width: 90%; margin: 0 auto; float: none; }
+.why-choose { padding: 20px 0; width: 100%; }
+.cate-first { width: 100%; float: none !important; margin: 0 auto; }
+.cate-first .cate-box.none { border-bottom: 1px solid #ddd; }
+.cate-box { float: none; margin: 0 auto; width: 100%; border-right: none; }
+.cate-second h2 { font-size: 25px; }
+.cate-last { width: 100%; margin: 0 auto; }
+.cate-last .cate-box { float: none; margin: 0 auto; width: 100%; border-left: none; }
+.cate-last .cate-box.bnone { border-bottom: 1px solid #ddd; }
+.why-choose h1 { font-size: 25px; }
+.why-choose p { font-size: 16px; }
+#ft { padding: 20px 0; }
+#ft h3 { text-align: center; }
+#ft p { text-align: center; }
+#ft span.fa-mobile-phone { float: none; }
+ul.ftlink li { text-align: center; }
+.copyrty p { text-align: center; }
+ul.soc { display: block; margin: 20px auto; width: 45%; }
+.btn-green { padding: 5px 10px; font-size: 15px; margin: 15px auto; text-align: center; }
+.header-sticky { height: 85px; background: #24434e; }
+.home-banner { display: block; width:100%; padding-top:0px; height: 450px; }
+.home-banner img { margin: 0; width: 100%;height:450px;}
+.banner-desc { width: 90%; height:auto; padding: 50px 20px 20px 20px; top:150px;max-width:90%;}
+.banner-desc h2 { font-size: 16px;}
+.navbar { min-height:100px; margin-bottom: 0px; }
+.navbar-toggle { margin-top: 24px; border-radius: 0px; border: 1px solid #fff !important; margin-bottom: 24px; }
+.navbar-inverse .navbar-collapse { overflow-y: auto; background: #24434e; }
+.nav { margin-top: 0px; }
+.navbar-nav > li > a { padding: 10px; }
+.navbar-nav { margin: 0px; }
+.nav > li > a.btn-login { margin: 0px; margin-bottom: 10px; }
+#top-image { padding-top: 30px; }
+#top-image p { margin-bottom: 35px; }
+.how-it-work { height: 250px; }
+.header-video--media { height: 230px; }
+.video-trigger h4 { font-size: 20px; }
+.video-trigger span img { width: 50px; height: 50px; background-size: 50px 50px; }
+header {background:none; -webkit-transition: all 0.4s ease; transition: all 0.4s ease;position:absolute;top:0px;left:0px;right:0px;z-index:9999;height:100px;}
+header.sticky { position:fixed;width:100%;background: #0d2f3c; height: 100px;-webkit-transition: all 0.4s ease; transition: all 0.4s ease;top:0px;left:0px;right:0px;z-index:9999;}
+}
+@media screen and (min-width:480px) and (max-width:767px) {
+}
+@media screen and (min-width:600px) and (max-width:767px) {
+}
+ @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+}
+/* Login */
+/*-.bg { background: url(../images/bg@2x.png) no-repeat center top; background-size: 100% 100%; -webkit-background-size: 100% 100%; }--*/

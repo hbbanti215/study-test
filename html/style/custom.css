@@ -1,0 +1,6 @@
+#owl-example .item { margin:0px;text-align: center;}
+#owl-example .item img { width: auto; margin: 0 auto; display: block; }
+#owl-example .item .item-detail { position:absolute;top:0px;left:0px;background:#29b2bc;display:none;width:100%;height:100%;}
+#owl-example .item .item-detail h3 { font-size:20px;margin:0px;padding:0px;color:#fff;margin-bottom:15px;}
+#owl-example .item .item-detail h4 { font-size:15px;margin:0px;padding:0px;color:#fff;line-height:22px;}
+#owl-example .item:hover .item-detail {display:block;}
